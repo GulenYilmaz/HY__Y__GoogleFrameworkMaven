@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 		, 
 		monochrome = true
 		,strict=true
-		,tags= "@googleInfo"
+		,tags= "@googleAnimal"
 		,plugin= {
 				"pretty",
 				"html:target/cucumber-default-report",

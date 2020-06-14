@@ -41,9 +41,9 @@ public class AddEmployeePageElements extends CommonMethods {
 	}
 
 	public void createEmpLoginCR(String uid, String pwd) {
-		sendText(username, uid);
-		sendText(password, pwd);
-		sendText(confirmPassword, ConfigsReader.getProperty("empPassword"));
+		sendText(username,uid);
+		sendText(password,pwd);
+		sendText(confirmPassword, pwd);
 		click(saveBtn);
 	}
 }

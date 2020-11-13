@@ -46,4 +46,19 @@ public class AddEmployeePageElements extends CommonMethods {
 		sendText(confirmPassword, pwd);
 		click(saveBtn);
 	}
+	public static void main(String[] args) {
+		
+		
+		int array []= {10,20,30,40,50};	
+		int x=array.length;
+		do {
+			x--;
+			System.out.println(x);
+			System.out.println("---");
+			System.out.println(array[x]);
+		}while (x>=0);
+		System.out.println(x+"--");
+		
+		
+}
 }
